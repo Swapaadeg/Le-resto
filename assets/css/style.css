@@ -45,7 +45,6 @@ h5 {
 a {
   text-decoration: none;
   color: #ffffff;
-  text-transform: uppercase;
 }
 
 @font-face {
@@ -83,6 +82,7 @@ header .header__wrapper .navbar .navbar__menu {
 }
 header .header__wrapper .navbar .navbar__menu a {
   font-weight: 600;
+  text-transform: uppercase;
 }
 header .header__wrapper .navbar .navbar__social {
   display: flex;
@@ -91,6 +91,29 @@ header .header__wrapper .navbar .navbar__social {
 header .header__wrapper .hero {
   text-align: center;
   padding-top: 8rem;
+}
+header .header__wrapper .hero img {
+  margin: 1rem;
+}
+header .header__wrapper .hero p {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+}
+header .header__wrapper .navbar__slide {
+  display: flex;
+  margin-top: 20rem;
+  justify-content: center;
+  gap: 1rem;
+}
+header .header__wrapper .navbar__slide .point {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: solid 2px #ffffff;
+}
+header .header__wrapper .navbar__slide .three {
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
