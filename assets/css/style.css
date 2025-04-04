@@ -31,11 +31,13 @@ h3 {
   color: #B47F50;
   font-size: 4rem;
   font-weight: 400;
-  margin: 0;
+  margin-bottom: -2rem;
 }
 
 h4 {
   text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 h5 {
@@ -62,7 +64,7 @@ a {
 .container {
   width: 100%;
   margin: auto;
-  padding: 4rem;
+  padding: 0;
 }
 
 header {
@@ -75,6 +77,7 @@ header .header__wrapper .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 4rem;
 }
 header .header__wrapper .navbar .navbar__menu {
   display: flex;
@@ -114,6 +117,48 @@ header .header__wrapper .navbar__slide .point {
 }
 header .header__wrapper .navbar__slide .three {
   background-color: #ffffff;
+}
+
+.store__wrapper {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+.store__wrapper .store__content {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.store__wrapper .store__content .store__border {
+  border: dashed 1px #B47F50;
+  margin: 2rem;
+}
+.store__wrapper .store__content .store__border h3 {
+  margin-top: 4rem;
+}
+.store__wrapper .store__content .store__border img {
+  margin-top: 1rem;
+}
+.store__wrapper .store__content .store__border .lorem {
+  padding: 2rem 14rem;
+}
+.store__wrapper .store__content .store__border .avatar {
+  width: 15%;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.store__wrapper .store__content .store__border .name {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+.store__wrapper .store__content .store__border .job {
+  margin-bottom: 4rem;
+}
+.store__wrapper .store__img {
+  width: 50%;
+}
+.store__wrapper .store__img img {
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

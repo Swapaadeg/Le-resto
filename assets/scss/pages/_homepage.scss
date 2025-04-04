@@ -1,0 +1,43 @@
+@use "../abstracts/variables" as variable;
+
+.store__wrapper {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    .store__content {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        .store__border {
+            border: dashed 1px variable.$brun;
+            margin: 2rem;
+            h3 {
+                margin-top: 4rem;
+            }
+            img {
+                margin-top: 1rem;
+            }
+            .lorem {
+                padding: 2rem 14rem;
+            }
+            .avatar {
+                width: 15%;
+                border-radius: 50%;
+                margin-bottom: 2rem;
+            }
+            .name {
+                font-weight: 300;
+                font-size: 1.4rem;
+            }
+            .job {
+                margin-bottom: 4rem;
+            }
+        }
+    }
+    .store__img {
+        width: 50%;
+        img {
+            height: 100%;
+        }
+    }
+}
