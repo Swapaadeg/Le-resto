@@ -1,5 +1,6 @@
 @use "../abstracts/variables" as variable;
 
+// STORE SCSS 
 .store__wrapper {
     display: flex;
     align-items: stretch;
@@ -26,8 +27,9 @@
                 margin-bottom: 2rem;
             }
             .name {
-                font-weight: 300;
-                font-size: 1.4rem;
+                font-weight: 500;
+                font-size: 1.6rem;
+                font-family: variable.$font-tertiary;
             }
             .job {
                 margin-bottom: 4rem;
@@ -38,6 +40,36 @@
         width: 50%;
         img {
             height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+// MENU SCSS 
+.menu__wrapper {
+    background-color: variable.$bggray;
+    .menu__navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-top: 6rem;
+        img {
+            width: 5%;
+            padding: 2rem;
+            align-self: center;
+        }
+        .menu__nav {
+            display: flex;
+            justify-content: center;
+            gap: 6rem;
+            margin-bottom: 6rem;
+            a {
+                text-decoration: underline;
+                font-family: variable.$font-tertiary;
+                font-weight: 300;
+                font-size: 1.3rem;
+            }
         }
     }
 }

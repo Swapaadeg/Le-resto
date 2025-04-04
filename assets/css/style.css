@@ -93,7 +93,7 @@ header .header__wrapper .navbar .navbar__social {
 }
 header .header__wrapper .hero {
   text-align: center;
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
 header .header__wrapper .hero img {
   margin: 1rem;
@@ -103,9 +103,17 @@ header .header__wrapper .hero p {
   text-transform: uppercase;
   letter-spacing: 0.8rem;
 }
+header .header__wrapper .hero__chevron {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -6rem;
+}
+header .header__wrapper .hero__chevron .chevron {
+  color: #ffffff;
+}
 header .header__wrapper .navbar__slide {
   display: flex;
-  margin-top: 20rem;
+  margin-top: 25rem;
   justify-content: center;
   gap: 1rem;
 }
@@ -148,8 +156,9 @@ header .header__wrapper .navbar__slide .three {
   margin-bottom: 2rem;
 }
 .store__wrapper .store__content .store__border .name {
-  font-weight: 300;
-  font-size: 1.4rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: "cormorant";
 }
 .store__wrapper .store__content .store__border .job {
   margin-bottom: 4rem;
@@ -159,6 +168,35 @@ header .header__wrapper .navbar__slide .three {
 }
 .store__wrapper .store__img img {
   height: 100%;
+  width: 100%;
+}
+
+.menu__wrapper {
+  background-color: #21201E;
+}
+.menu__wrapper .menu__navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 6rem;
+}
+.menu__wrapper .menu__navbar img {
+  width: 5%;
+  padding: 2rem;
+  align-self: center;
+}
+.menu__wrapper .menu__navbar .menu__nav {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  margin-bottom: 6rem;
+}
+.menu__wrapper .menu__navbar .menu__nav a {
+  text-decoration: underline;
+  font-family: "cormorant";
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
