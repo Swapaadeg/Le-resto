@@ -198,7 +198,14 @@ header .header__wrapper .navbar__slide .three {
   font-weight: 300;
   font-size: 1.3rem;
 }
+.menu__wrapper .bg {
+  background-image: url(../../assets/img/bg-menu-01.jpg);
+  margin-top: 10rem;
+  position: relative;
+}
 .menu__wrapper .menu__card {
+  position: absolute;
+  transform: translateY(-8rem);
   background-color: #ffffff;
   border-top: 6px solid #B47F50;
   color: #b9b9b9;
