@@ -1,0 +1,51 @@
+@use "../abstracts/variables" as variable;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: variable.$font-principale;
+    color: variable.$black;
+}
+// TITRES 
+h1 {
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 600;
+    color: variable.$white;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: variable.$font-secondaire;
+    color: variable.$white;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: variable.$font-secondaire;
+    color: variable.$brun;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: variable.$font-tertiary;
+}
+
+a {
+    text-decoration: none;
+    color: variable.$white;
+    text-transform: uppercase;
+}

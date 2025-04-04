@@ -1,3 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins";
+  color: #030303;
+}
+
+h1 {
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: "allura";
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: "allura";
+  color: #B47F50;
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "cormorant";
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 @font-face {
   font-family: "allura";
   src: url(../../fonts/Allura/Allura-Regular.ttf);
@@ -5,6 +55,42 @@
 @font-face {
   font-family: "poppins";
   src: url(../../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "cormorant";
+  src: url(../../fonts/Cormorant/static/CormorantGaramond-Regular.ttf);
+}
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 4rem;
+}
+
+header {
+  background-image: url(../../assets/img/bg-slider-06.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+header .header__wrapper .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__wrapper .navbar .navbar__menu {
+  display: flex;
+  gap: 4rem;
+}
+header .header__wrapper .navbar .navbar__menu a {
+  font-weight: 600;
+}
+header .header__wrapper .navbar .navbar__social {
+  display: flex;
+  gap: 4rem;
+}
+header .header__wrapper .hero {
+  text-align: center;
+  padding-top: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
