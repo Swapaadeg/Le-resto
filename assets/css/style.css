@@ -198,5 +198,53 @@ header .header__wrapper .navbar__slide .three {
   font-weight: 300;
   font-size: 1.3rem;
 }
+.menu__wrapper .menu__card {
+  background-color: #ffffff;
+  border-top: 6px solid #B47F50;
+  color: #b9b9b9;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 4rem;
+  margin-left: 20%;
+  position: relative;
+}
+.menu__wrapper .menu__card i {
+  color: #B47F50;
+  position: absolute;
+  font-size: 1.5rem;
+  transform: translate(6rem, -5.2rem);
+}
+.menu__wrapper .menu__card .menu__plate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 47%;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #b9b9b9;
+}
+.menu__wrapper .menu__card .menu__plate .border {
+  border: 1px solid #b9b9b9;
+  width: 30%;
+  height: 1px;
+}
+.menu__wrapper .menu__card .menu__plate img {
+  border-radius: 50%;
+}
+.menu__wrapper .menu__card .menu__plate p {
+  font-size: 0.8rem;
+}
+.menu__wrapper .menu__card .menu__plate .name {
+  font-family: "cormorant";
+  font-size: 1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.menu__wrapper .menu__card .menu__plate .price {
+  font-size: 1.5rem;
+  color: #B47F50;
+  font-weight: 300;
+}
 
 /*# sourceMappingURL=style.css.map */

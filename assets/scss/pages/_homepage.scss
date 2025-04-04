@@ -72,4 +72,52 @@
             }
         }
     }
+    .menu__card {
+        background-color: variable.$white;
+        border-top: 6px solid variable.$brun;
+        color: variable.$gray;
+        width: 60%;
+        display: flex; 
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 4rem;
+        margin-left: 20%;
+        position: relative;
+        i {
+            color: variable.$brun;
+            position: absolute;
+            font-size: 1.5rem;
+            transform: translate(6rem, -5.2rem);
+        }
+        .menu__plate {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 47%;
+            padding-bottom: 1rem;
+            border-bottom: 1px dashed variable.$gray;
+            .border {
+                border: 1px solid variable.$gray;
+                width: 30%;
+                height: 1px;
+            }
+            img {
+                border-radius: 50%;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+            .name {
+                font-family: variable.$font-tertiary;
+                font-size: 1rem;
+                font-weight: 100;
+                text-transform: uppercase;
+            }
+            .price {
+                font-size: 1.5rem;
+                color: variable.$brun;
+                font-weight: 300;
+            }
+        }   
+    }
 }
